@@ -3,29 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance.Engine;
+package bmwengineinheritance.EngineCodes;
 
 /**
  *
  * @author David
  */
-public class M30B34 extends M30Engine{
+public class M20B27 extends M20Engine {
 
     // The methods in this class complete the abstract methods it inherited
     public double GetDisplacement() {
-        return 3.428;
+        return 2.693;
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public double GetPeakHorsepower() {
-        return 185;
+        return 127;
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public double GetPeakTorque() {
-        return 213;
+        return 170;
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

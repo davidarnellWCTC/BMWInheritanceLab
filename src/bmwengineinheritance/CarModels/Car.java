@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance.Cars;
+package bmwengineinheritance.CarModels;
 
 /**
  *
@@ -14,7 +14,10 @@ public interface Car {
     //public void GetEngine();
     //public void GetPackage();
     
-    public String GENERATION ="";
-    public String MODELNAME = "";
+    //public void getGeneration();
+    //public void getModelName();
+    
+//    public String GENERATION ="";
+//    public String MODELNAME = "";
     
 }

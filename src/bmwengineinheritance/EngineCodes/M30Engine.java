@@ -3,28 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance.Engine;
+package bmwengineinheritance.EngineCodes;
 
 /**
  *
  * @author David
  */
-public class M10B18 extends M10Engine {
-
-    // The methods in this class complete the abstract methods it inherited
-    public double GetDisplacement() {
-        return 1.766;
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public double GetPeakHorsepower() {
-        return 101;
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public double GetPeakTorque() {
-        return 103;
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+public abstract class M30Engine implements Engine {
     
+    // Every M30 based engine will be 6 cylinders
+    // There are no exceptions to this rule
+    public  int GetNumberCylinders() {
+        return 6;        
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    // Every M30 based engine will be an inline 6
+    // There are no exceptions to this rule
+    public  String getConfiguration() {
+        return "inline";
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

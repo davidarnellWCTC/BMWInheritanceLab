@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance.Cars;
+package bmwengineinheritance.CarModels;
 
 // I thought I could get the child classes to inherit imports
 // Turns out I can't.

@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance.Cars;
+package bmwengineinheritance.CarModels;
 
-import bmwengineinheritance.Engine.Engine;
-import bmwengineinheritance.Engine.M20B25;
+import bmwengineinheritance.EngineCodes.Engine;
+import bmwengineinheritance.EngineCodes.M20B25;
 import bmwengineinheritance.ModelOptions.OptionI;
-
+import bmwengineinheritance.ModelOptions.Package;
 /**
  *
  * @author David
  */
-public class Model325i extends E30Generation implements OptionI {
+public class Model325i extends E30Generation  {
 
 //    public Model325i(){
 //        GetEngine();
@@ -26,7 +26,7 @@ public class Model325i extends E30Generation implements OptionI {
 
     public Model325i(){
         Engine engine = new M20B25();
-        //Package package = new OptionI();
+        Package options = new OptionI();
         //GetEngine();
         //GetPackage();
     }
