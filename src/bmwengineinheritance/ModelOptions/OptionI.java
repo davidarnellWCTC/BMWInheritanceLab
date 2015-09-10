@@ -9,7 +9,7 @@ package bmwengineinheritance.ModelOptions;
  *
  * @author David
  */
-public interface OptionI extends Package {
+public class OptionI implements Package {
 
     // Each package has a different level description, suspension
     // setup, and interior options.
@@ -21,16 +21,20 @@ public interface OptionI extends Package {
 //        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 //    }
     
-    final String DESIGNATION = "Base";
+    //final String DESIGNATION = "Base";
 
 //    public String GetSuspension() {
 //        return "Standard Suspension";
 //        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 //    }
+    
+    //final String SUSPENSION = "Standard Suspension";
 
-    public String GetInterior() {
-        return "Base Model";
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+//    public String GetInterior() {
+//        return "Base Model";
+//        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+    
+    //final String INTERIOR = "Standard Interior";
     
 }

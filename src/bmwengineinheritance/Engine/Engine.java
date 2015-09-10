@@ -9,7 +9,7 @@ package bmwengineinheritance.Engine;
  *
  * @author David
  */
-public interface BMWEngines {
+public interface Engine {
     
     // Each engine has the following properties in common
     public double GetDisplacement();

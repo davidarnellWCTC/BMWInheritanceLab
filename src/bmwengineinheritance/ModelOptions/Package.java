@@ -11,8 +11,12 @@ package bmwengineinheritance.ModelOptions;
  */
 public interface Package {
     
-    public String GetDesignation();
-    public String GetSuspension();
-    public String GetInterior();
+//    public String GetDesignation();
+//    public String GetSuspension();
+//    public String GetInterior();
+    
+    public String DESIGNATION = "Base Model";
+    public String SUSPENSION = "Standard Suspension";
+    public String INTERIOR = "Standard Interior";
     
 }

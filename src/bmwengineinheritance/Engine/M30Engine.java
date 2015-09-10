@@ -9,7 +9,7 @@ package bmwengineinheritance.Engine;
  *
  * @author David
  */
-public abstract class M30Engine implements BMWEngines {
+public abstract class M30Engine implements Engine {
     
     // Every M30 based engine will be 6 cylinders
     // There are no exceptions to this rule

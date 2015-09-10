@@ -3,24 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bmwengineinheritance.Engine;
+package bmwengineinheritance.Cars;
+
+import bmwengineinheritance.Engine.Engine;
+import bmwengineinheritance.Engine.M20B25;
+import bmwengineinheritance.ModelOptions.OptionI;
 
 /**
  *
  * @author David
  */
-public abstract class M10Engine implements Engine {
-        // Every M10 based engine will be 4 cylinders
-    // There are no exceptions to this rule
-    public  int GetNumberCylinders() {
-        return 4;        
+public class Model325i implements  E30Generation {
+
+    public void GetEngine() {        
+        Engine engine = new M20B25();        
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    // Every M10 based engine will be an inline 4
-    // There are no exceptions to this rule
-    public  String getConfiguration() {
-        return "inline";
+    public void GetPackage() {
+        Package package = new OptionI();
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }  
 }
