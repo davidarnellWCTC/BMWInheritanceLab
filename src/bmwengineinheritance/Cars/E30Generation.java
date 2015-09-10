@@ -13,7 +13,7 @@ package bmwengineinheritance.Cars;
  *
  * @author David
  */
-public interface E30Generation extends Car {
+public abstract class E30Generation implements Car {
     
     // I'm not sure if I understand this correctly.
     // I want this class to remain an interface but I also want

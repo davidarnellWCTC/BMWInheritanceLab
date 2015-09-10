@@ -5,8 +5,11 @@
  */
 package bmwengineinheritance;
 
-import bmwengineinheritance.Cars.Car;
+//import bmwengineinheritance.Cars.Car;
+
 import bmwengineinheritance.Cars.Model325i;
+
+//import bmwengineinheritance.Cars.Model325i;
 
 /**
  *
@@ -22,11 +25,11 @@ public class BMWEngineInheritance {
         
         System.out.println("test");
         
-        Car car = new Model325i();
+        Model325i car = new Model325i();
         
-        String suspension;
         
-        System.out.println("The suspension is: ");
+        
+        //System.out.println("The suspension is: ");
         
         
         

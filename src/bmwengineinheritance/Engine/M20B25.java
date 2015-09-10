@@ -27,4 +27,6 @@ public class M20B25 extends M20Engine{
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }    
     
+    public String testing = "1234";
+    
 }

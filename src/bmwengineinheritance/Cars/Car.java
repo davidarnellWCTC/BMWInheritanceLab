@@ -11,7 +11,7 @@ package bmwengineinheritance.Cars;
  */
 public interface Car {
     
-    public void GetEngine();
+    //public void GetEngine();
     //public void GetPackage();
     
     public String GENERATION ="";
