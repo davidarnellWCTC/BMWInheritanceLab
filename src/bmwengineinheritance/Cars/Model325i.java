@@ -13,17 +13,32 @@ import bmwengineinheritance.ModelOptions.OptionI;
  *
  * @author David
  */
-public class Model325i implements E30Generation {
+public class Model325i extends E30Generation implements OptionI {
 
-    public void GetEngine() {        
-        Engine engine = new M20B25();        
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    public Model325i(){
+//        GetEngine();
+//        //GetPackage();
+//    }
+//    public void GetEngine() {        
+//        Engine engine = new M20B25();        
+//        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
+
+    public Model325i(){
+        Engine engine = new M20B25();
+        //Package package = new OptionI();
+        //GetEngine();
+        //GetPackage();
     }
     
-    Package package = new OptionI();
+    //Engine engine = new M20B25();
+    
+    //Package option = new OptionI();
 
 //    public void GetPackage() {
 //        Package package = new OptionI();
 //        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 //    }  
+
+
 }
